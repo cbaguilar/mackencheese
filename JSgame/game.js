@@ -36,6 +36,9 @@ function create() {
 	ledge.body.immovable = true;
 	ledge = platforms.create(-150, 250, 'ground');
 	ledge.body.immovable = true;
+	var block = platforms.create(10,10, 'ground');
+	block.body.immovable = true;
+	block.scale.setTo(1,1);
 	
 	
 	
